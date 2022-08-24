@@ -1,0 +1,43 @@
+/* fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Poppins:wght@200;300;400;600&display=swap');
+
+/* 
+    Color Palette
+     #131313  //dark grey
+     #1A1A1A  //dark grey
+     #474747  //mid-grey
+     #BCBCBC  //light-grey
+     #D5D5D5  //light-grey
+     #FF202B  //red
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    font-family: 'Poppins', sans-serif;
+    background: #131313;
+    color: #D5D5D5;
+}
+
+/* hide scrollbar for Chrome, Safari, and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* hide scrollbar for IE, Edge, and Firefox */
+html {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* smooth scrolling effect over the whole page */
+html {
+    scroll-behavior: smooth;
+}
+
+

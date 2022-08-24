@@ -1,0 +1,48 @@
+.navbar-elements {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #131313;
+    font-family: 'Lora', serif;
+}
+
+.navbar-elements ul { 
+    float: right;
+}
+
+.navbar-elements li {
+    list-style: none;
+    display: inline-block;
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar-elements a {
+    text-decoration: none;
+    color: #D5D5D5;   
+}
+
+.navbar-elements a:hover {
+    opacity: 0.8;
+}
+
+.navbar-elements a:focus {
+    color: #FF202B;
+}
+
+
+/* Responsive Design for Mobile and Tablet Devices */
+
+@media screen and (max-width: 768px) {
+    .navbar-elements li {
+        font-size: 1.2rem;
+        padding: 1.5rem 3rem;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .navbar-elements li {
+        padding: 1rem 2rem;
+    }
+}

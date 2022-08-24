@@ -1,0 +1,80 @@
+
+.welcome-container {
+    background: url('../assets/valeria-reverdo-dwy2meBFqW8-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.welcome-content {
+    padding: 4rem;
+    font-size: 1.7rem;
+}
+
+.welcome-content .span-name {
+    color: #FF202B;
+}
+
+
+.welcome-buttons {
+    padding: 2rem;
+
+}
+
+.welcome-buttons a {
+    color: #D5D5D5;
+    border: 1px solid #D5D5D5;
+    background: #131313;
+    font-family: 'Lora', serif;
+    padding: 1.5rem 3rem;
+    margin: 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.welcome-buttons a:hover {
+    background: #1A1A1A;
+}
+
+.welcome-buttons a:focus {
+    color: #FF202B;
+}
+
+
+/* Responsive Design for Mobile and Tablet Devices */
+
+
+
+@media screen and (max-width: 1020px) {
+    .welcome-content {
+        padding-top: 6rem;
+        font-size: 1.4rem;
+    }
+
+    .welcome-buttons a {
+        padding: 1.2rem 2.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .welcome-container {
+        height: 110vh;
+        text-align: center;
+    }
+
+    .welcome-content {
+        padding: 3rem;
+        font-size: 1.1rem;
+    }
+
+    .welcome-buttons a {
+        display: inline-block;
+        margin: 1rem;
+    }
+}

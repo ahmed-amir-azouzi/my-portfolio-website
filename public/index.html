@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal portfolio website"
+    />
+    <title>Welcome - Ahmed Amir Azouzi</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+
+
+    <!-- EmailJS Library for sending form emails -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- EmailJS public key setup-->
+    <script type="text/javascript"> (function() { emailjs.init('4Xl9rRusyH2GBi3jj'); })(); </script>
+    <!-- EmailJS form handling script -->
+    <script type="text/javascript">
+      window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            emailjs.sendForm('contact_service', 'contact_form', this)
+                .then(function() {
+                    console.log('SUCCESS: mail sent successfully!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+          });
+      }
+    </script>
+  </body>
+</html>

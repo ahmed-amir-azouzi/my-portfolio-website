@@ -1,0 +1,28 @@
+#footer {
+    height: 20vh;
+    background: #131313;
+    color: #BCBCBC;
+}
+
+.footer-left {
+    position: absolute;
+    padding: 2rem;
+
+}
+
+.footer-right { 
+    float: right;
+    padding: 2rem;
+
+}
+
+.footer-right a {
+    color: #BCBCBC;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    
+}
+
+.footer-right a:focus {
+    color: #474747;
+}
