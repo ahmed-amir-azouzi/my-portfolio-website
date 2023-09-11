@@ -5,7 +5,7 @@ my-portfolio-website
 Simple and elegant single-paged personal portfolio website. All the page's elements were defined as react components and styled with pure css.  
 
 ### Live Demo Link
-https://ahmed-amir-azouzi.herokuapp.com/
+[https://ahmed-amir-azouzi.herokuapp.com/](https://ahmed-amir-azouzi.github.io/my-portfolio-website/)
 >
 ![](portfolio_website.gif)
 
